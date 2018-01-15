@@ -1,6 +1,5 @@
 FROM microsoft/windowsservercore AS core
  
-RUN mkdir C:\\Ruby
 ADD .\\rubyinstaller-2.4.3-1-x64 C:\\Ruby
 ADD .\\msys64-2-20161025 C:\\msys64
  
